@@ -12,26 +12,49 @@ html,body{
 
 header{
     background-color: rgb(91, 208, 247);
-    height: 100px;
-    
-    
+    height: 150px;
+     
 }
 header > p{
-    text-align: center;
+    text-align: left;
     color: white;
     padding-top: 20px;
+    padding-left :20px ;
     font-weight: bold;
+    font-size: 1.5rem;
 }
 nav{
-    color: rgb(250, 249, 249);
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 10px;
-    
 }
 nav > a{
     text-decoration: none;
+    color: white;
     padding: 5px;
+    font-size: 1.1rem;
 }
 .institucional{
     background-color: lightgrey;
+    height: 350px;
+}
+.noticias{
+    background-color: rgb(91, 208, 247);
+    height: 350px;
+}
+.fotos{
+    background-color: lightgrey;
+    height: 350px;
+}
+.contato{
+    background-color: grey;
+    height: 300px;
+}
+.login{
+    padding-top: 30px;
+    padding-left: 10px;
+    text-align: right;
+
+}
+.cadastro{
+    padding-right: 18px;
 }
