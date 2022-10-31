@@ -21,7 +21,7 @@ header > p{
     padding-top: 20px;
     padding-left :20px ;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
 }
 nav{
     padding-top: 30px;
@@ -32,6 +32,12 @@ nav > a{
     color: white;
     padding: 5px;
     font-size: 1.1rem;
+}
+nav a:hover{
+    background-color: rgb(150, 220, 230);
+    padding: 2px;
+    transition-duration: 0.7s;
+
 }
 .institucional{
     background-color: lightgrey;
@@ -50,11 +56,30 @@ nav > a{
     height: 300px;
 }
 .login{
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 10px;
     text-align: right;
 
 }
 .cadastro{
-    padding-right: 18px;
+    padding-right: 10px;
 }
+.tituloBloco{
+    padding: 5px;
+    margin-bottom: 6px;
+}
+.blocoInf{
+ display: inline-block;
+ background-color:rgba(199, 199, 199, 0.315);
+ width: 375px;
+ height: 275px;
+ margin-left: 50px;
+ word-spacing: 4px;
+ letter-spacing: 1px;
+}
+.blocoFoto{
+    display: inline-block;
+    width: 375px;
+    height: 275px;
+    margin-left: 50px;
+   }
