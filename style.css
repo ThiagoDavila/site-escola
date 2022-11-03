@@ -14,6 +14,7 @@ html,body{
 header{
     background-color: rgb(91, 208, 247);
     height: 150px;
+    
      
 }
 header > p{
@@ -40,17 +41,17 @@ nav a:hover{
     transition-duration: 0.7s;
 
 }
-.institucional{
+#institucional{
     background-color: lightgrey;
-    height: 350px;
+    height: 400px;
 }
-.noticias{
+#noticias{
     background-color: rgb(91, 208, 247);
-    height: 350px;
+    height: 400px;
 }
-.fotos{
+#fotos{
     background-color: lightgrey;
-    height: 350px;
+    height: 400px;
 }
 .login{
     padding-top: 20px;
