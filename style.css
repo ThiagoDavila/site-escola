@@ -17,7 +17,7 @@ header{
     
      
 }
-header > p{
+header > h1{
     text-align: left;
     color: white;
     padding-top: 20px;
